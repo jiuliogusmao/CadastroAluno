@@ -26,8 +26,13 @@ public class aluno {
 		return dataNasc;
 	} 
 	
+<<<<<<< HEAD
 	public Data getDataNasc() {
 		return dataNasc; 
+=======
+	public Data getDataNasc(int dia, int mes, int ano) {
+		return dataNasc = new Data(dia, mes, ano); 
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 	}
 	public float getNotaProva1() {
 		return notaProva1;
@@ -80,17 +85,24 @@ public class aluno {
 		super();
 		this.matricula = matricula;
 		this.nome = nome;
+<<<<<<< HEAD
 		try {
 			this.dataNasc = new Data(dia, mes, ano);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+=======
+		this.dataNasc = new Data(dia, mes, ano);
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 		this.notaProva1 = notaProva1;
 		this.notaProva2 = notaProva2;
 		this.notaTrab = notaTrab;
 	}
 	
+<<<<<<< HEAD
 
+=======
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 }
 

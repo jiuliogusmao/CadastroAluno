@@ -8,13 +8,20 @@ public class Data {
 				"abril", "maio", "junho", "julho", "agosto", "setembro",
 				"outubro", "novembro", "dezembro"};
 		// construtor
+<<<<<<< HEAD
 		public Data(int dia, int mes, int ano) throws Exception {
+=======
+		public Data(int dia, int mes, int ano) {
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 			if (this.validaData(dia, mes, ano)) {
 				this.dia = dia;
 				this.mes = mes;
 				this.ano = ano;
+<<<<<<< HEAD
 			} else {
 				throw new Exception ("Data inválida!");
+=======
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 			}
 		}
 		private boolean validaData(int dia, int mes, int ano) {
@@ -88,9 +95,17 @@ public class Data {
 			return getDia() + "/" + getMes() + "/" + getAno();
 		}
 		
+<<<<<<< HEAD
 //		public Data clone() {
 //			Data dataClone = new Data(this.dia, this.mes, this.ano);
 //			return dataClone;		
 //		}
 //		
+=======
+		public Data clone() {
+			Data dataClone = new Data(this.dia, this.mes, this.ano);
+			return dataClone;		
+		}
+		
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 }

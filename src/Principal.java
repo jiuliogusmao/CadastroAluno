@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import javax.swing.JOptionPane;
+=======
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
 
 public class Principal {
 
@@ -14,6 +17,7 @@ public class Principal {
 //    		" Nota prova 1: " + a2.getNotaProva1() + 
 //    		" Nota prova 2: " + a2.getNotaProva2() +
 //    		" Nota trabalho: " + a2.getNotaTrab());
+<<<<<<< HEAD
 		String dataInvalida = JOptionPane.showInputDialog("Insira dia, mês e ano corrretamente!");
 		String[] parts = dataInvalida.split(" ");
 		int dia = Integer.parseInt(parts[0]);
@@ -24,6 +28,13 @@ public class Principal {
  System.out.println(" Matrícula: " + a3.getMatricula() +
     		"\n Nome: " + a3.getNome() +
     		"\n Data de nascimento: " + a3.getDataNasc() + 
+=======
+	aluno a3 = new aluno(1234567, "Pedro", 20, 2, 1990, 7, 8, 9);
+	
+ System.out.println(" Matrícula: " + a3.getMatricula() +
+    		"\n Nome: " + a3.getNome() +
+    		"\n Data de nascimento: " + a3.getDataNasc(0, 0, 0) + 
+>>>>>>> d75303cd9e2d7e2211ccb0ebfbefddac0664ec76
     		"\n Nota prova 1: " + a3.getNotaProva1() + 
     		"\n Nota prova 2: " + a3.getNotaProva2() +
     		"\n Nota trabalho: " + a3.getNotaTrab() +
